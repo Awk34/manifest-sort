@@ -1,0 +1,27 @@
+{
+  "name": "manifest-sort",
+  "version": "0.0.0",
+  "description": "Sorts your package.json and bower.json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awk34/manifest-sort.git"
+  },
+  "keywords": [
+    "sort",
+    "bower",
+    "bower.json",
+    "package",
+    "package.json",
+    "manifest"
+  ],
+  "author": "Andrew Koroluk <koroluka@gmail.com> (http://andrewk.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Awk34/manifest-sort/issues"
+  },
+  "homepage": "https://github.com/Awk34/manifest-sort#readme"
+}
