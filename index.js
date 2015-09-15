@@ -5,11 +5,11 @@ var env = process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 
 if(env === 'development') {
     // Register the Babel require hook
-    require('babel-core/register');
+    require('babel/register');
     
     // Export the application
-    exports = module.exports = require('src/sort');
+    exports = module.exports = require('./src/sort');
 } else {
 	// Export the application
-	exports = module.exports = require('dist/sort');
+	exports = module.exports = require('./dist/sort');
 }
